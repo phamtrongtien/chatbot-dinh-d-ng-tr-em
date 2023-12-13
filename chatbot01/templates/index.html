@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot tư vấn dinh dưỡng trẻ sơ sinh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        #chatContainer {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #chatOutput {
+            padding: 10px;
+            overflow-y: auto;
+            max-height: 300px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #messageInput {
+            width: calc(100% - 70px);
+            padding: 10px;
+            margin: 0;
+            border: none;
+            border-radius: 0;
+            outline: none;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        #sendButton {
+            width: 60px;
+            padding: 10px;
+            margin: 0;
+            border: none;
+            border-radius: 0;
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+            outline: none;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        #chatOutput {
+            padding: 10px;
+            overflow-y: auto;
+            max-height: 300px;
+            border-bottom: 1px solid #ddd;
+        }
+    
+        .message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 8px;
+        }
+    
+        .userMessage {
+            background-color: #4caf50;
+            color: #fff;
+            text-align: right;
+        }
+    
+        .botMessage {
+            background-color: #eee;
+            color: #333;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>ChatBot tư vẫn dinh dưỡng trẻ sơ sinh</h1>
+    <div id="chatContainer">
+        <div id="chatOutput"></div>
+        <div>
+            <input type="text" id="messageInput" placeholder="Type your message">
+            <button id="sendButton" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var messageInput = document.getElementById('messageInput');
+            var message = messageInput.value;
+            messageInput.value = '';
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/predict', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var response = JSON.parse(xhr.responseText);
+                    displayMessage('You: ' + message);
+                    displayMessage('Bot: ' + response.response);
+                }
+            };
+            xhr.send('message=' + encodeURIComponent(message));
+        }
+
+        function displayMessage(message, isUser = false) {
+            var chatOutput = document.getElementById('chatOutput');
+            var formattedMessage = message.replace(/\n/g, '<br>');
+            
+            var messageDiv = document.createElement('div');
+            messageDiv.innerHTML = formattedMessage;
+            
+            if (isUser) {
+                messageDiv.classList.add('message', 'userMessage');
+            } else {
+                messageDiv.classList.add('message', 'botMessage');
+            }
+        
+            chatOutput.appendChild(messageDiv);
+            chatOutput.scrollTop = chatOutput.scrollHeight;
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,360 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello bạn",
+        "xin chào",
+        "chào bạn",
+        "xin chào bạn",
+        "hi bạn",
+        "hey bot",
+        "hello"
+      ],
+      "responses": [
+        "chào bạn, tôi là chatbot tư vấn chăm sóc trẻ sơ sinh. Bạn cần tôi giúp gì?",
+        "xin chào, bạn cần tôi tư vấn điều gì. Tôi là một chatbot tư vấn chăm sóc trẻ sơ sinh.tôi giúp gì được cho bạn?",
+        "hello, chúc bạn một ngày tốt lành. Bạn cần tôi tư vấn gì cho trẻ của bạn?",
+        "tôi có thể giúp gì cho bạn không? Tư vấn của tôi sẽ giúp ích cho trẻ của bạn."
+      ]
+    },
+    {
+      "tag": "hỏithêm",
+      "patterns": [
+        "còn gì nữa không",
+        "còn gì không",
+        "còn thông tin gì nữa không",
+        "tôi cần biết thêm gì không"
+      ],
+      "responses": [
+        "Bên cạnh những thông tin đã chia sẻ, bạn có thể hỏi về cách chăm sóc nhiều khía cạnh khác nhau của trẻ sơ sinh.\nVí dụ lịch trình ngủ, lịch trình ăn uống và lượng dưỡng chất lời khuyên khi trẻ gặp dị ứng\n",
+        "Nếu bạn quan tâm đến các khía cạnh cụ thể của chăm sóc trẻ sơ sinh, hãy nói cho tôi biết và tôi sẽ cố gắng cung cấp thông tin chi tiết nhất có thể.\nVí dụ như lượng dưỡng chất,lịch trình ăn,lịch trình ngủ hoặc lời khuyên khi trẻ gặp dị ứng\n"
+      ]
+    },
+    {
+      "tag": "thank you",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "cảm ơn",
+        "cảm ơn bạn",
+        "thank you very much",
+        "tôi rất cảm ơn",
+        "thanks a lot"
+      ],
+      "responses": [
+        "Rất vui khi được giúp bạn đưa ra một số tư vấn",
+        "Không có gì, hãy nếu cần thêm sự giúp đỡ.",
+        "Rất vui được giúp đỡ bạn!",
+        "Chào bạn! Nếu có thêm câu hỏi, đừng ngần ngại liên hệ."
+      ]
+    },
+    {
+      "tag": "good bye",
+      "patterns": [
+        "good bye",
+        "ok goodbye",
+        "bye",
+        "stop",
+        "tạm biệt",
+        "oke cảm ơn bạn",
+        "ok"
+      ],
+      "responses": [
+        "Good bye",
+        "see you later",
+        "hẹn gặp lại",
+        "oke chào bạn"
+      ]
+    },
+    {
+      "tag": "kết thúc",
+      "patterns": [
+        "tôi đã hiểu rồi",
+        "tôi đã hiểu",
+        "tôi đã nắm bắt được thông tin"
+      ],
+      "responses": [
+        "Tôi muốn nhấn mạnh rằng những kiến thức của tôi đưa ra được thu thập và xử lý bằng công nghệ nên sẽ có sai sót.\n Vậy nên quan trọng nhất bạn vẫn cần phải lưu ý để đảm bảo chăm sóc cho trẻ của bạn đucọ tốt nhất.\n Nuôi dưỡng tốt, vận động nhẹ nhàng, cung cấp dinh dưỡng cân đối, giữ môi trường yên tĩnh,kiểm tra y tế định kỳ cho trẻ, hợp tác và hỏi ý kiến trực tiếp chuyên gia.\n Dặc biệt quan trọng, nếu trẻ của bạn gặp vấn đề khó khăn, nguy hiểm, cần ngay lập tức liên hệ chuyên gia và đưa bé đến nơi điều trị kịp thời!\n "
+      ]
+    },
+    {
+      "tag": "hỏi 01",
+      "patterns": [
+        "tôi muốn hỏi về việc chăm sóc trẻ sơ sinh",
+        "tôi cần tư vấn về cách chăm sóc trẻ sơ sinh",
+        "tôi muốn được tư vấn để chăm con mình",
+        "tôi có một vài câu hỏi về trẻ sơ sinh",
+        "tôi muốn hỏi một số vấn đề",
+        "tôi cần lời khuyên về",
+        "tôi có một số câu hỏi về trẻ sơ sinh",
+        "Tôi quan tâm đến việc chăm sóc trẻ sơ sinh, có điều gì tôi cần biết không?",
+        "Bạn có thể tư vấn cho tôi về cách chăm sóc trẻ sơ sinh được không?",
+        "Tôi đang cần hỗ trợ về việc chăm sóc"
+      ],
+      "responses": [
+        "Được thôi vấn đề của bạn là gì? Các vấn đề về dinh dưỡng, vận động cho trẻ sơ sinh theo từng giai đoạn hoặc theo thể trạng của trẻ tôi đề có thể trả lời giúp ích cho bạn",
+        "Bạn cho tôi biết rõ hơn được không? về dinh dưỡng,vận động cho trẻ theo thể trạng hay giai đoạn",
+        "Hãy cho tôi biết thêm điều bạn muốn. Về dinh dưỡng,vận động cho trẻ theo các giai đoạn hay theo thể trạng của bé?",
+        "Có vấn đề gì mà bạn đang gặp phải? Có thể là về dinh dưỡng, vận động cho trẻ sơ sinh theo từng giai đoạn hoặc tùy thuộc vào thể trạng cụ thể của trẻ. Tôi có thể hỗ trợ bạn.",
+        "Bạn có thể chia sẻ thêm thông tin không? Vấn đề liên quan đến dinh dưỡng hay vận động của trẻ? Theo giai đoạn phát triển hay theo tình trạng sức khỏe hiện tại?",
+        "Hãy nói rõ hơn về tình hình. Bạn quan tâm đến dinh dưỡng hay vận động của trẻ? Theo từng giai đoạn hay theo tình trạng hiện tại của bé?",
+        "Cho tôi hiểu rõ hơn vấn đề của bạn. Có liên quan đến dinh dưỡng hay vận động của trẻ? Theo giai đoạn phát triển hay theo tình trạng sức khỏe?",
+        "Nếu bạn chia sẻ thêm thông tin, tôi có thể cung cấp hỗ trợ tốt hơn. Vấn đề về dinh dưỡng, vận động của trẻ theo giai đoạn hay theo thể trạng hiện tại của bé?"
+      ]
+    },
+    {
+      "tag": "hỏi 02",
+      "patterns": [
+        "giai đoạn",
+        "tôi cần biết theo giai đoạn",
+        "tôi muốn hỏi theo giai đoạn",
+        "trẻ sơ sinh có những giai đoạn nào?",
+        "các giai đoạn của trẻ sơ sinh là gì",
+        "Tìm hiểu về phát triển của trẻ từ 0-12 tháng.",
+        "Giai đoạn phát triển cơ bản của trẻ sơ sinh là gì?",
+        "Tại sao quan trọng hiểu về các giai đoạn của trẻ sơ sinh?",
+        "Các bước quan trọng trong sự phát triển của em bé là gì?"
+      ],
+      "responses": [
+        "Theo các chuyên gia về chăm sóc trẻ sơ sinh tôi có thể gợi ý cho bạn đó là thường các giai đoạn của trẻ sơ sinh có 5 giai đoạn sẽ từ lúc mới sinh đến 12 tháng\n.Giai đoạn 1: giai đoạn từ 0 đến 1 tháng.\n Giai đoạn 2: giai đoạn từ 1 đến 3 tháng.\n Giai đoạn 3: giai đoạn từ 4 đến 6 tháng.\n Giai đoạn 4: giai đoạn từ 7 đến 9 tháng.\n Giai đoạn 5: giai đoạn từ 10 đến 12 tháng.\n Không biết bạn cần tôi tư vấn trong giai đoạn nào của trẻ? "
+      ]
+    },
+    {
+      "tag": "hỏi 03",
+      "patterns": [
+        "thể trạng",
+        "tôi cần biết về thể trạng của trẻ",
+        "tôi muốn hỏi về thể trạng"
+      ],
+      "responses": [
+        "Không biết bé của bạn đang ở thể trạng như thế nào?"
+      ]
+    },
+    {
+      "tag": "R01",
+      "patterns": [
+        "Giai đoạn 1: giai đoạn từ 0 đến 1 tháng",
+        "0 đến 1 tháng",
+        "giai đoạn từ 0 đến 1 tháng mới sinh",
+        "bé mới sinh được 1 tháng",
+        "trẻ giai đoạn mới sinh",
+        "giai đoạn mới sinh",
+        "bé tròn 1 tháng",
+        "trẻ giai đoạn từ 0 đến 1 tháng",
+        "trẻ mới sinh"
+      ],
+      "responses": [
+        "Trong giai đoạn này, trẻ sơ sinh thường có thói quen ngủ nhiều, tỉnh giấc để ăn, và tự nhiên phản ứng với ánh sáng và âm thanh.\n Khả năng nhìn của trẻ chưa phát triển đầy đủ, chú mainly tập trung vào việc nhìn vào khuôn mặt gần.\n Về dinh dưỡng:\n             -Trẻ trong giai đoạn này nên được cho bú mẹ hoặc ăn sữa công thức.\n              -Thực đơn chủ yếu nên là sữa mẹ hoặc sữa công thức, cung cấp đầy đủ dưỡng chất cho sự phát triển ban đầu của trẻ.\n              -Bú mẹ được ưu tiên vì nó chứa các kháng thể giúp bảo vệ trẻ khỏi bệnh tật.\n              -Trẻ nên được bú mẹ hoặc sữa mẹ tương đương 6-8 lần mỗi ngày, và khuyến khích bú mẹ nếu có thể.\n Về vận động:\n              -Trẻ trong giai đoạn này còn rất yếu ớt, vì vậy quan trọng để thực hiện các hành động nhẹ nhàng.\n              -Đặt trẻ gần mặt người thân để tạo mối quan hệ, cung cấp sự an ủi, và nên đặt trẻ nằm ngửa.\n              -Tránh đặt trẻ sơ sinh trên giường lò xo, ghế sofa, hoặc ghế trong ô tô khi họ ngủ.\n              -Trẻ bắt đầu phát triển khả năng nắm vật, nên cung cấp đồ chơi có thể nắm trước mắt trẻ.\n              -Khi tắm, hỗ trợ dưới bụng để thúc đẩy phát triển chân và tay.\n              -Chơi nhạc nhẹ hoặc hát lên để kích thích phản ứng âm thanh của trẻ.\n              -Nói chuyện với trẻ để tạo môi trường lý thú và phát triển ngôn ngữ.\n"
+      ]
+    },
+    {
+      "tag": "R02",
+      "patterns": [
+        "Giai đoạn 2: giai đoạn từ 1 đến 3 tháng",
+        "1 đến 3 tháng",
+        "giai đoạn từ 1 đến 3 tháng",
+        "bé mới sinh được 3 tháng",
+        "giai đoạn mới sinh được 3 tháng",
+        "bé tròn 3 tháng",
+        "trẻ giai đoạn từ 1 đến 3 tháng",
+        "Trẻ ở giai đoạn 1-3 tháng phát triển như thế nào?"
+      ],
+      "responses": [
+        "Trong giai đoạn này, trẻ bắt đầu thể hiện các biểu hiện vui mừng như cười và phản ứng tích cực với cảm xúc.\nHọ tỏ ra linh hoạt hơn bằng cách xoay đầu theo âm thanh và ánh sáng, đồng thời cải thiện khả năng giữ đầu và thường đưa tay vào miệng.\n Về dinh dưỡng:\n              -Ở giai đoạn này, việc cung cấp sữa mẹ hoặc sữa công thức đóng vai trò quan trọng trong việc cung cấp dưỡng chất quan trọng.\n              -Sữa mẹ chứa các kháng thể giúp bảo vệ trẻ khỏi bệnh tật và cung cấp đầy đủ dinh dưỡng cho sự phát triển ban đầu của trẻ.\n              -Trong trường hợp không thể cho trẻ bú mẹ, sữa công thức là lựa chọn thay thế, và quan trọng là tuân theo hướng dẫn trên sản phẩm.\n Về vận động:\n              -khuyến khích đặt trẻ lên bàn thay tã hoặc thảm để tạo cơ hội cho việc nhìn và chơi.\n              -Trẻ sơ sinh bắt đầu phát triển khả năng nắm vật, và việc đặt đồ chơi có thể nắm trước mắt trẻ sẽ thúc đẩy sự phát triển của tay và mắt.\n              -Massage nhẹ có thể giúp tăng cường tương tác và hỗ trợ trẻ phát triển các giác quan.\n              -Lật từ tư thế nằm bụng ra tư thế nằm lưng cũng là một hoạt động quan trọng được khuyến khích để hỗ trợ sự phát triển motor.\n"
+      ]
+    },
+    {
+      "tag": "R03",
+      "patterns": [
+        "Giai đoạn 3: giai đoạn từ 4 đến 6 tháng",
+        "4 đến 6 tháng",
+        "giai đoạn từ 4 đến 6 tháng",
+        "bé mới sinh được 6 tháng",
+        "giai đoạn mới sinh được 6 tháng",
+        "bé tròn 6 tháng",
+        "trẻ giai đoạn từ 4 đến 6 tháng"
+      ],
+      "responses": [
+        "Trong giai đoạn này, trẻ đang trải qua những bước phát triển quan trọng, bao gồm khả năng ngồi và xoay người.\nTrẻ bắt đầu nâng đầu khi nằm ấp và có khả năng nhận biết người quen và người xa lạ.\n Về dinh dưỡng:\n              - giai đoạn này là thời điểm quan trọng để bắt đầu thực phẩm rắn.\n              -Bạn có thể bắt đầu với các loại thực phẩm dễ tiêu hóa như bột gạo hoặc cháo lúa mạch.\n              -Thức ăn an toàn cho trẻ ăn dặm bao gồm bí đỏ, cà rốt, hoa quả nghiền, và sữa chua cho trẻ sơ sinh.\n              -Đảm bảo cung cấp đủ dưỡng chất để hỗ trợ sự phát triển và hệ thống miễn dịch của trẻ.\n Về vận động:\n              -Hãy đặt trẻ trên sàn để bò, giúp phát triển cơ bắp và khả năng tự xoay.\n              -Đặt đồ chơi ở xa và khuyến khích trẻ nâng đầu và lật bên để nắm vật.\n              -Sử dụng ghế nhún nhảy để kích thích phát triển chân và cơ bắp, cũng như sử dụng đồ chơi di động trên giường để khuyến khích trẻ theo dõi bằng mắt.\n"
+      ]
+    },
+    {
+      "tag": "R04",
+      "patterns": [
+        "Giai đoạn 4: giai đoạn từ 7 đến 9 tháng",
+        "7 đến 9 tháng",
+        "giai đoạn từ 7 đến 9 tháng",
+        "bé mới sinh được 9 tháng",
+        "giai đoạn mới sinh được 9 tháng",
+        "bé tròn 9 tháng",
+        "trẻ giai đoạn từ 7 đến 9 tháng"
+      ],
+      "responses": [
+        "Trong giai đoạn này, trẻ bắt đầu thể hiện những bước phát triển quan trọng như việc bò và chuyển động trên bụng một cách linh hoạt.\nHọ có khả năng tự ngồi mà không cần sự giúp đỡ và bắt đầu phản ứng khi nghe tên của mình.\n Về dinh dưỡng:\n              -Ở giai đoạn này, thực phẩm an toàn cho trẻ ăn dặm bao gồm các loại thực phẩm như bí đỏ, cà rốt, hoa quả nghiền và sữa chua cho trẻ sơ sinh.\n              -Đặc biệt, cần cung cấp đủ dưỡng chất để hỗ trợ sự phát triển và hệ thống miễn dịch của trẻ.\n              -Bổ sung thêm thực phẩm giàu dinh dưỡng như hạt, thịt, cá và rau củ giúp đảm bảo một chế độ dinh dưỡng đa dạng, giúp trẻ nhận đủ chất cần thiết cho sự phát triển.\n Về vận động:\n              -Khuyến khích trẻ bò, nâng đầu và người để phát triển cơ bắp và sự ổn định.\n              -Cung cấp đồ chơi khuyến khích bò hoặc lùi, và thực hiện trò chơi ném bóng nhẹ để khuyến khích trẻ theo dõi và tương tác.\n"
+      ]
+    },
+    {
+      "tag": "R05",
+      "patterns": [
+        "Giai đoạn 5: giai đoạn từ 10 đến 12 tháng",
+        "10 đến 12 tháng",
+        "giai đoạn từ 10 đến 12 tháng",
+        "bé mới sinh được 12 tháng",
+        "giai đoạn mới sinh được 12 tháng",
+        "bé tròn 12 tháng",
+        "trẻ giai đoạn từ 10 đến 12 tháng"
+      ],
+      "responses": [
+        "Trong giai đoạn này, phát triển của trẻ tiếp tục mở rộng khi họ bắt đầu đứng và thậm chí bước đi với sự hỗ trợ.\nTrẻ phát triển khả năng ngôn ngữ, biểu hiện bằng cách nói đơn giản, hiểu lời, và có khả năng theo dõi hướng dẫn từ người lớn.\n Về dinh dưỡng:\n              -Ở giai đoạn này, trẻ có thể bắt đầu tham gia ăn thức ăn gia đình, mặc dù cần cắt nhỏ và chế biến mềm trước khi đưa cho trẻ.\n              -Quan trọng là đảm bảo cung cấp đủ nước và theo dõi sự phát triển của trẻ để đảm bảo chế độ dinh dưỡng phù hợp.\n Về vận động:\n              -Hỗ trợ việc trẻ đứng và thử nghiệm bước chân là quan trọng.\n              -Đặt đồ chơi mà trẻ có thể đứng và chơi, thúc đẩy trẻ đứng lên và tập đi.\n              -Việc hỗ trợ trẻ trong việc tập đi và thử bước chân sẽ là bước quan trọng trong hành trình phát triển của họ.\n"
+      ]
+    },
+    {
+      "tag": "TT01",
+      "patterns": [
+        "thể trạng bình thường",
+        "trẻ bình thường"
+      ],
+      "responses": [
+        "Trẻ sơ sinh ở trạng thái bình thường với thể trạng khá mạnh mẽ và phát triển bình thường.\nVề dinh dưỡng:\n              -Đảm bảo cung cấp sữa mẹ hoặc sữa công thức theo đúng lịch trình và lượng phù hợp với độ tuổi của trẻ để đảm bảo sự phát triển và sức khỏe tốt nhất.\n               -Hãy chắc chắn rằng trẻ được bú sữa đầy đủ số lần trong ngày để đáp ứng nhu cầu dinh dưỡng và sự phát triển của họ.\n               -Lựa chọn sản phẩm chất lượng cho cả sữa mẹ và sữa công thức, giúp đảm bảo rằng trẻ nhận được dinh dưỡng đầy đủ và an toàn.\n Về vận động:\n              -Đặt trẻ sơ sinh ở tư thế nằm bụng có thể khuyến khích phát triển cơ bắp và giúp trẻ nâng đầu một cách tự nhiên.\n              -Cho trẻ sơ sinh tiếp xúc với ánh nắng tự nhiên bằng cách đưa ra ngoài, tạo điều kiện thuận lợi cho quá trình nấm, và kích thích các phản ứng âm thanh thông qua việc nói chuyện và hát ru.\n"
+      ]
+    },
+    {
+      "tag": "lịch ăn",
+      "patterns": [
+        "vậy lịch ăn cho trẻ là gì?",
+        "vậy lịch trình ăn",
+        "lịch ăn",
+        "lượng dinh dưỡng và số lần ăn",
+        "lịch trình ăn"
+      ],
+      "responses": [
+        "Giai đoạn 1: Từ 0 đến 1 tháng:\n    -8-12 lần mỗi ngày, mỗi lần khoảng 2-3 giờ.\n    -Trẻ ăn mỗi 2-3 giờ và thường ngủ nhiều vào ban ngày.\nGiai đoạn 2: Từ 1 đến 3 tháng:\n    -6-8 lần mỗi ngày, mỗi lần khoảng 2-4 giờ.\n    -Bắt đầu thêm thực phẩm bổ sung như cháo và hoa quả nấu chín nhuyễn.\nGiai đoạn 3: Từ 4 đến 6 tháng:\n    -4-6 lần mỗi ngày, mỗi lần khoảng 3-4 giờ.\n    -Bắt đầu thêm thực phẩm bổ sung đa dạng như thịt, cá, lòng đỏ trứng.\nGiai đoạn 4: Từ 7 đến 9 tháng:\n    -3-4 lần mỗi ngày, mỗi lần khoảng 4-5 giờ.\n    -Tiếp tục mở rộng thực phẩm bổ sung và giới thiệu thức ăn gia đình.\nGiai đoạn 5: Từ 10 đến 12 tháng:\n    -3-4 lần mỗi ngày, mỗi lần khoảng 4-5 giờ.\n    -Tăng cường thêm thực phẩm gia đình và thức ăn dễ nhai.\n"
+      ]
+    },
+    {
+      "tag": "TT02",
+      "patterns": [
+        "Trẻ ốm",
+        "bé sốt",
+        "bé ốm"
+      ],
+      "responses": [
+        "Trẻ sơ sinh ốm là trẻ có triệu chứng ốm, thể trạng yếu đuối, có thể xuất hiện triệu chứng suy dinh dưỡng hoặc tình trạng tổn thương sức khỏe.\nTrẻ này cần được chăm sóc đặc biệt và có lịch trình dinh dưỡng đặc thù để phục hồi và phát triển.\nVề dinh dưỡng:\n              -Cung cấp thức ăn nhẹ và dễ tiêu, như cháo, nước hầm, và thực phẩm giàu dinh dưỡng để hỗ trợ quá trình phục hồi của trẻ.\n              -Đảm bảo trẻ được cung cấp đủ nước để ngăn ngừa tình trạng mất nước do sốt.\n              -Tránh thức ăn nặng và khó tiêu cho đến khi trẻ phục hồi hoàn toàn, tập trung vào việc cung cấp những thực phẩm dễ tiêu hóa và giàu chất dinh dưỡng.\n Về vận động:\n              -Khuyến khích trẻ tham gia vào các hoạt động vận động nhẹ nhàng như xoay từ bụng lên lưng, tập thở, và đánh đùa nhẹ nhàng để giữ cho cơ bắp linh hoạt và thúc đẩy quá trình phục hồi.\n             -Đảm bảo trẻ có đủ thời gian nghỉ ngơi và không áp đặt trẻ tham gia vào bất kỳ hoạt động nào quá nặng nề khi đang trong tình trạng ốm.\n"
+      ]
+    },
+    {
+      "tag": "TT03",
+      "patterns": [
+        "Trẻ có vấn đề tiêu hóa",
+        "bé bị đi ngoài",
+        "bé bị khó tiêu"
+      ],
+      "responses": [
+        "Trẻ có vấn đề liên quan đến hệ tiêu hóa, bao gồm tình trạng như táo bón hoặc tiêu chảy, khó khăn trong việc tiêu hóa thức ăn. Thể trạng của trẻ có thể biểu hiện bằng triệu chứng như buồn nôn, đau bụng, hoặc nôn mửa. Cần theo dõi kỹ thuật dinh dưỡng và cung cấp chế độ ăn phù hợp.\n Về dinh dưỡng: -Cung cấp thức ăn dễ tiêu hóa và giàu chất xơ như cháo lúa mạch, khoai tây, và rau củ hấp để hỗ trợ quá trình tiêu hóa của trẻ.\n              -Đảm bảo trẻ được uống đủ nước để ngăn ngừa tình trạng táo bón và duy trì sự ẩm trong đường ruột.\n              -Tránh thức ăn gây kích thích tiêu hóa như thực phẩm cay nồng, giữ cho chế độ ăn của trẻ nhẹ nhàng và dễ chịu.\n              -Nếu trẻ gặp vấn đề tiêu hóa, hãy tham khảo ý kiến của bác sĩ để được kiểm tra và tư vấn đúng cách điều trị.\n Về vận động: -Khuyến khích trẻ tham gia vào các hoạt động vận động nhẹ nhàng như xoay từ bụng lên lưng, tập thở, và đánh đùa nhẹ nhàng để duy trì sự linh hoạt và thúc đẩy quá trình tiêu hóa.\n"
+      ]
+    },
+    {
+      "tag": "TT04",
+      "patterns": [
+        "Trẻ bị khó thở",
+        "trẻ bị khó hô hấp"
+      ],
+      "responses": [
+        "Trẻ gặp vấn đề về hô hấp, thể trạng của trẻ biểu hiện bằng việc khó khăn trong việc thở, đánh đấm ngực, hoặc triệu chứng khò khè, ngưng thở tạm thời hoặc cảm giác khó khăn khi thở.\nTrẻ cần được giám sát cẩn thận, và đôi khi cần hỗ trợ hô hấp đặc biệt.\nVề dinh dưỡng:\n              -Đảm bảo trẻ được nuôi dưỡng đầy đủ để tăng cường hệ thống miễn dịch.\n              -Tránh sử dụng thực phẩm có thể gây kích thích hoặc tăng cảm giác ngột ngạt, như thực phẩm quá cay hoặc có thể tạo ra cảm giác khó chịu cho trẻ.\nVề vận đông:\n              -Nếu trẻ gặp khó khăn trong việc thở, hãy ngay lập tức tham khảo ý kiến của bác sĩ để đảm bảo an toàn và đưa ra biện pháp điều trị phù hợp.\n             -Hỗ trợ trẻ tham gia vào các hoạt động vận động nhẹ nhàng như xoay từ bụng lên lưng, tập thở, và đánh đùa nhẹ nhàng dưới sự giám sát của người lớn để thúc đẩy sự linh hoạt và cải thiện sức khỏe tổng thể.\n"
+      ]
+    },
+    {
+      "tag": "TT05",
+      "patterns": [
+        "Trẻ sơ sinh thường nguy cơ béo phì",
+        "trẻ thừa cân",
+        "béo phì",
+        "bé thừa cân"
+      ],
+      "responses": [
+        "Trẻ có nguy cơ béo phì nếu không được theo dõi và quản lý chặt chẽ.\nThể trạng của trẻ có nguy cơ gặp vấn đề về tăng cân quá nhanh hoặc không được cung cấp dinh dưỡng cân đối.\nCần lập kế hoạch dinh dưỡng đúng cách để đảm bảo sự phát triển và sức khỏe toàn diện của trẻ.\nBạn nên liên hệ đến các chuyên gia trong lĩnh vực trẻ sơ sinh để được tư vấn và khắc phục cho trẻ một cách lịp thời"
+      ]
+    },
+    {
+      "tag": "TT06",
+      "patterns": [
+        "Trẻ sơ sinh thấp còi",
+        "suy dinh dưỡng",
+        "gầy",
+        "bé gầy quá"
+      ],
+      "responses": [
+        "Trẻ sơ sinh thấp còi có thể được xác định bởi thể trạng yếu đuối với trọng lượng và chiều dài thấp hơn so với bình thường.\nThể trạng này có thể dẫn đến tình trạng cơ bắp kém phát triển và yếu hơn.\nTrẻ sơ sinh thấp còi cần được chăm sóc đặc biệt và lịch trình dinh dưỡng phù hợp để tăng cường phát triển và trọng lượng cơ thể.\nChăm sóc Y tế Định Kỳ: Đảm bảo trẻ được kiểm tra sức khỏe định kỳ bởi bác sĩ hoặc chuyên gia y tế. Điều này sẽ giúp theo dõi sự phát triển của trẻ và đưa ra các biện pháp can thiệp khi cần thiết.\nVề dinh dưỡng:\n              -Lịch Trình Dinh Dưỡng Chặt Chẽ: Thực hiện lịch trình dinh dưỡng được đề xuất bởi bác sĩ hoặc chuyên gia dinh dưỡng. Dinh dưỡng cân đối là yếu tố quan trọng để hỗ trợ phát triển cơ bắp và trọng lượng cơ thể.\n              -Thời Gian Chơi và Tương Tác: Dành thời gian chơi và tương tác với trẻ mỗi ngày. Hoạt động nhẹ nhàng như massage, nói chuyện nhẹ nhàng, và hát lullaby có thể giúp kích thích sự phát triển và tăng cường gắn kết gia đình.\nVề vận động:\n              -Tạo Môi Trường An Toàn: Tạo một môi trường an toàn để trẻ có thể khám phá mà không gặp khó khăn. Điều này giúp trẻ phát triển các kỹ năng vận động và cảm nhận môi trường xung quanh.\n              -Hỗ Trợ Tình Trạng Y Tế Đặc Biệt (nếu có): Nếu trẻ có các vấn đề y tế đặc biệt, hãy tuân thủ theo hướng dẫn của bác sĩ và chuyên gia y tế. Cung cấp chăm sóc đặc biệt và thăm bác sĩ định kỳ để theo dõi tình hình sức khỏe.\n"
+      ]
+    },
+    {
+      "tag": "TT07",
+      "patterns": [
+        "Trẻ sơ sinh sinh non",
+        "trẻ sinh thiếu tháng",
+        "bé sinh non"
+      ],
+      "responses": [
+        "Trẻ sinh non là trẻ được sinh ra trước thời gian dự kiến, thể trạng của trẻ có thể biểu hiện bằng việc trọng lượng, chiều dài cơ thể và cơ bắp thấp hơn so với trẻ sinh đúng kỳ.\nThể trạng này đòi hỏi sự chăm sóc đặc biệt và theo dõi kỹ thuật dinh dưỡng để hỗ trợ sự phát triển và tăng cân của trẻ.Chăm, sóc Y Tế Đặc Biệt: Đảm bảo trẻ được theo dõi chặt chẽ bởi đội ngũ y tế chuyên nghiệp. Kiểm tra sức khỏe định kỳ và thăm bác sĩ đúng lịch trình để đảm bảo phát hiện sớm và giải quyết vấn đề y tế.\nVề dinh dưỡng:\n              -Dinh Dưỡng Đặc Biệt: Thiết kế một lịch trình dinh dưỡng đặc biệt dưới sự hướng dẫn của bác sĩ hoặc chuyên gia dinh dưỡng. Dinh dưỡng chính là yếu tố quan trọng để hỗ trợ sự phát triển và tăng cân của trẻ.\nVề vận động:\n              -Tạo Môi Trường An Toàn và Ấm Áp: Tạo một môi trường ấm áp, không gian yên tĩnh để giảm thiểu kích thích bên ngoài. Điều này giúp trẻ dành năng lượng cho sự phát triển thay vì tiêu hao nó trong môi trường xung quanh.\n              -Tương Tác và Gắn Kết Gia Đình: Tương tác thường xuyên với trẻ bằng cách nói chuyện nhẹ nhàng, hát lullaby, và thậm chí là cử chỉ nhỏ. Gắn kết gia đình là yếu tố quan trọng để tạo ra một môi trường hỗ trợ.\n              -Thời Gian Tiếp Xúc với Ánh Sáng Tự Nhiên: Đưa trẻ ra khỏi phòng và để trẻ tiếp xúc với ánh sáng tự nhiên hàng ngày. Ánh sáng tự nhiên có thể hỗ trợ chu kỳ sinh học của trẻ và thúc đẩy sự phát triển.\n              -Theo Dõi Sự Phát Triển: Theo dõi sự phát triển của trẻ bằng cách ghi chép các cử động, phản ứng, và mức tăng cân. Điều này giúp bác sĩ và chuyên gia y tế đánh giá hiệu quả của lịch trình chăm sóc.\n"
+      ]
+    },
+    {
+      "tag": "TT08",
+      "patterns": [
+        "Trẻ có tình trạng đặc biệt",
+        "thể trạng hiếm gặp",
+        "thể trạng đặc biệt"
+      ],
+      "responses": [
+        "Trẻ có thể có các vấn đề đặc biệt liên quan đến sức khỏe hoặc phát triển, bao gồm các vấn đề liên quan đến gen như trisomy 21.\nThể trạng của trẻ có thể biểu hiện bằng các triệu chứng đặc biệt và cần được chăm sóc và quản lý đặc thù.\nCác triệu chứng và cách quản lý sẽ phụ thuộc vào tình trạng sức khỏe cụ thể của trẻ.\nKiểm Tra Y Tế Định Kỳ: Đảm bảo trẻ được kiểm tra sức khỏe thường xuyên để theo dõi sự phát triển và xác định liệu pháp chăm sóc phù hợp.\nChăm Sóc Đặc Biệt: Thiết lập lịch trình chăm sóc đặc biệt tùy thuộc vào triệu chứng cụ thể, bao gồm buổi tập thể dục và thăm bác sĩ chuyên khoa.\nHỗ Trợ Gia Đình: Hỗ trợ tâm lý và nguồn lực gia đình, cung cấp thông tin và hướng dẫn chăm sóc hàng ngày.\nTạo Môi Trường Hỗ Trợ: Tạo môi trường ổn định, giảm kích thích bên ngoài, và tăng cường sự kết nối gia đình.\nHợp Tác với Chuyên Gia: Hợp tác chặt chẽ với bác sĩ, chuyên gia dinh dưỡng, và giáo viên để tối ưu hóa kế hoạch chăm sóc.\nGiáo Dục và Hỗ Trợ Cộng Đồng: Tìm kiếm giáo dục và hỗ trợ từ cộng đồng, kết nối với tổ chức và nhóm hỗ trợ gia đình có trẻ đặc biệt.\n"
+      ]
+    },
+    {
+      "tag": "lịch ngủ",
+      "patterns": [
+        "lịch ngủ là gì",
+        "lịch trình ngủ",
+        "cho tôi biết lịch trình ngủ",
+        "lịch ngủ",
+        "vậy lịch ngủ là gì?"
+      ],
+      "responses": [
+        "Giai đoạn 1: Từ 0 đến 1 tháng:\n    -Trẻ thường ngủ từ 16-18 giờ mỗi ngày.\n    -Chu kỳ ngủ ngắn, thường chỉ kéo dài khoảng 2-4 giờ mỗi lần.\nGiai đoạn 2: Từ 1 đến 3 tháng:\n    -Giảm dần thời gian ngủ xuống khoảng 15-16 giờ mỗi ngày.\n    -Chu kỳ ngủ vẫn ngắn nhưng có thể có sự cải thiện.\nGiai đoạn 3: Từ 4 đến 6 tháng:\n    -Trẻ sẽ ngủ khoảng 14-15 giờ mỗi ngày.\n    -Bắt đầu phát triển giấc ngủ đêm liên tục hơn, có thể ngủ từ 8-10 giờ mỗi đêm.\nGiai đoạn 4: Từ 7 đến 9 tháng:\n    -Thời gian ngủ mỗi ngày giảm xuống khoảng 14 giờ.\n    -Trẻ có thể ngủ từ 10-12 giờ mỗi đêm, có thể thức dậy một hoặc hai lần trong đêm.\nGiai đoạn 5: Từ 10 đến 12 tháng:\n    -Thời gian ngủ mỗi ngày thường là 13-14 giờ.\n    -Trẻ có thể ngủ từ 10-12 giờ mỗi đêm và thức dậy ít hơn trong đêm.\n"
+      ]
+    },
+    {
+      "tag": "lượng chất",
+      "patterns": [
+        "lượng dưỡng chất cần thiết cho trẻ sơ sinh",
+        "tôi cần biết lượng dưỡng chất",
+        "lượng dưỡng chất",
+        "lượng chất",
+        "vậy lượng dưỡng chất cần cung cấp là gì?"
+      ],
+      "responses": [
+        "**1. Protein:**\n   - Protein là một yếu tố quan trọng giúp trẻ phát triển cơ bắp, mô, và hỗ trợ sự phát triển toàn diện.\n   - Lượng protein cần thiết thay đổi theo từng giai đoạn phát triển. Ở giai đoạn mới sinh, trẻ cần lượng protein cao, và sau đó, lượng protein có thể được điều chỉnh dựa trên nhu cầu của trẻ.\n\n**2. Carbohydrate:**\n   - Carbohydrate cung cấp năng lượng cho trẻ sơ sinh để thúc đẩy sự phát triển và hoạt động hàng ngày.\n   - Cần cân nhắc lượng carbohydrate cung cấp dựa trên nhu cầu và hoạt động của trẻ.\n\n**3. Lipid (chất béo):**\n   - Chất béo rất quan trọng cho phát triển não bộ và hệ thần kinh.\n   - Điều quan trọng là đảm bảo rằng trẻ nhận đủ lượng chất béo, đặc biệt ở giai đoạn phát triển sớm.\n\n**4. Vitamin và khoáng chất:**\n   - Vitamin và khoáng chất chơi một vai trò quan trọng trong việc duy trì sức kháng, phát triển xương và răng.\n   - Các vitamin quan trọng bao gồm vitamin D (để hỗ trợ hấp thụ canxi), vitamin C, và các loại vitamin nhóm B.\n   - Khoáng chất quan trọng bao gồm canxi, sắt, kẽm và magiê.\n"
+      ]
+    },
+    {
+      "tag": "Dị ứng thức ăn",
+      "patterns": [
+        "Dấu hiệu dị ứng thức ăn",
+        "- trẻ ngứa và sưng trên môi, mặt, hoặc vùng xung quanh miệng.",
+        "- trẻ mẩn ngứa trên da.",
+        "- trẻ nôn mửa.",
+        "-trẻ tiêu chảy hoặc Khó thở,phát ban.",
+        "Dị ứng thức ăn",
+        "dị ứng"
+      ],
+      "responses": [
+        "- Dừng cho trẻ ăn thức ăn gây dị ứng ngay lập tức.\n- Thăm bác sĩ để đưa ra chẩn đoán và hướng dẫn quản lý.\n- Theo dõi triệu chứng\n- Sẵn sàng cấp cứu nếu có triệu chứng nặng."
+      ]
+    }
+  ],
+  "feeding_schedules": {
+    "Giai đoạn 1": "Lịch ăn giai đoạn 1: ...",
+    "Giai đoạn 2": "Lịch ăn giai đoạn 2: ...",
+    "Giai đoạn 3": "Lịch ăn giai đoạn 3: ..."
+  }
+}
